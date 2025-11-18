@@ -15,7 +15,7 @@ readme = "README.md"
 keywords = ["iOS", "TLS", "SSL", "crypto", "keychain"]
 exclude = ["test/*"]
 edition = "2021"
-rust-version = "1.71"
+# rust-version = "1.71"
 
 [dependencies]
 security-framework-sys = { version = "2.15", default-features = false, path = "../security-framework-sys" }
